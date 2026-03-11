@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "WebSearch",
+      "WebFetch(domain:developer.nvidia.com)",
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:ollama.com)",
+      "WebFetch(domain:catalog.ngc.nvidia.com)",
+      "WebFetch(domain:docs.mlcommons.org)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:www-cdn.anthropic.com)",
+      "WebFetch(domain:build.nvidia.com)",
+      "WebFetch(domain:docs.dify.ai)",
+      "WebFetch(domain:www.col.org)",
+      "Bash(tree -L 3 -a /home/rcheng/frugal-knowledge-base 2>/dev/null || find /home/rcheng/frugal-knowledge-base -not -path '*/\\\\.git/*' -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g' | sort)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "WebFetch(domain:block.github.io)",
+      "Bash(mkdir -p docs && git mv components docs/components && git mv stacks docs/stacks && git mv guides docs/guides && git mv runbooks docs/runbooks)",
+      "WebFetch(domain:gitbook.com)",
+      "WebFetch(domain:docs.gitbook.com)",
+      "WebFetch(domain:www.gitbook.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:www.reddit.com)",
+      "WebFetch(domain:www.mineraleyt.com)"
+    ]
+  }
+}

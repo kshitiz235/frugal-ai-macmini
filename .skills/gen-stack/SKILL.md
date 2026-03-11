@@ -9,7 +9,7 @@ description: Generate tested stack docs by composing existing hardware, runtime,
 - Hardware + runtime + model + environment combination (e.g., "Mac Mini + Ollama + Llama 3.1 8B")
 
 ## Grounding source
-- Existing component docs in `components/` (hardware, runtime, model, environment)
+- Existing component docs in `docs/components/` (hardware, runtime, model, environment)
 - Memory scaling data from model cards
 - Performance estimates from inference benchmarks
 
@@ -22,13 +22,13 @@ description: Generate tested stack docs by composing existing hardware, runtime,
 6. Add troubleshooting section.
 
 ## Output
-- Write to `stacks/[env]-[runtime]-[model].md`
+- Write to `docs/stacks/[env]-[runtime]-[model].md`
 
 ## Example doc
-- `stacks/dev-ollama-qwen3.5.md`
+- `docs/stacks/dev-ollama-qwen3.5.md`
 
 ## Hard rules
-- All referenced components must exist as docs in `components/`.
+- All referenced components must exist as docs in `docs/components/`.
 - Commands must be real — use actual Ollama tags or HF model IDs.
 - Must include verification with expected tokens/sec and memory usage.
 - Must include at least one device variant.

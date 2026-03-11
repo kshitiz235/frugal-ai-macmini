@@ -13,7 +13,7 @@ Local inference runtime for running open-weight models. Offline-capable, single-
 - Requires CUDA-specific features (tensor parallelism, speculative decoding)
 
 ## Key features
-- GGUF model format (quantized, efficient)
+- GGUF model format (quantized, efficient) — see [MLX vs GGUF](mlx-vs-gguf.md) for format comparison
 - OpenAI-compatible API at `http://localhost:11434`
 - Automatic Metal (macOS) and CUDA (Linux) acceleration
 - Built-in model management (`ollama pull`, `ollama list`)

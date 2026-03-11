@@ -44,8 +44,8 @@ Derive the output filename:
 components/models/[family]-[size]-[variant].md
 ```
 Examples:
-- `Qwen/Qwen3.5-9B` → `components/models/qwen-3.5-9b.md`
-- `meta-llama/Llama-3.1-8B-Instruct` → `components/models/llama-3.1-8b-instruct.md`
+- `Qwen/Qwen3.5-9B` → `docs/components/models/qwen-3.5-9b.md`
+- `meta-llama/Llama-3.1-8B-Instruct` → `docs/components/models/llama-3.1-8b-instruct.md`
 
 ### Step 2 — Fetch Source Data (grounding)
 
@@ -121,7 +121,7 @@ The **"Fits on"** field must name specific devices, not abstract GB numbers.
 
 ### Step 7 — Write the File
 
-Read `templates/model-card-template.md` for the canonical structure, then write the completed card to `components/models/[family]-[size]-[variant].md`.
+Read `templates/model-card-template.md` for the canonical structure, then write the completed card to `docs/components/models/[family]-[size]-[variant].md`.
 
 ---
 

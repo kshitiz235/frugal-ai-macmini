@@ -20,10 +20,10 @@ description: Generate runtime reference cards for the Frugal AI Knowledge Base f
 4. Verify install commands are real and copy-pasteable.
 
 ## Output
-- Write to `components/runtimes/[runtime-name].md`
+- Write to `docs/components/runtimes/[runtime-name].md`
 
 ## Example doc
-- `components/runtimes/ollama.md`
+- `docs/components/runtimes/ollama.md`
 
 ## Hard rules
 - No placeholders — every field must have real content.

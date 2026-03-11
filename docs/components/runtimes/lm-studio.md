@@ -2,6 +2,8 @@
 
 Desktop GUI for running open-weight models locally. Good for non-CLI users and visual model management.
 
+> **Not open source.** LM Studio is free for personal use but proprietary. For a fully open-source stack, use [Ollama](ollama.md) (CLI) or [Jan](https://jan.ai) (GUI). This matters for Frugal AI deployments where institutional sovereignty requires auditable, open-source components.
+
 ## When to use
 - Desktop users who prefer a GUI over terminal
 - Quick model comparison and testing
@@ -16,7 +18,7 @@ Desktop GUI for running open-weight models locally. Good for non-CLI users and v
 - Visual model browser and download manager
 - Chat interface built in
 - OpenAI-compatible local API server
-- GGUF model support with quantization selection
+- GGUF and MLX model support (see [MLX vs GGUF](mlx-vs-gguf.md) for performance comparison)
 - Metal (macOS) and CUDA (Windows/Linux) acceleration
 
 ## Compatibility

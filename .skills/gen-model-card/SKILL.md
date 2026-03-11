@@ -19,7 +19,7 @@ description: Generate Frugal AI model cards from a Hugging Face model link. Outp
 8. **Cite sources inline** — every non-obvious fact must note its origin.
 
 ## Output
-- Write to `components/models/[family]-[size]-[variant].md`
+- Write to `docs/components/models/[family]-[size]-[variant].md`
 - Must be complete enough for a contributor to assess model-device fit at a glance.
 
 ## Hard rules

@@ -21,10 +21,10 @@ description: Generate operational runbooks for lifecycle management of environme
 5. Include health check table, troubleshooting, recovery, and maintenance sections.
 
 ## Output
-- Write to `runbooks/[scope-description].md`
+- Write to `docs/runbooks/[scope-description].md`
 
 ## Example doc
-- `runbooks/dev-environment-mac-mini-24gb.md`
+- `docs/runbooks/dev-environment-mac-mini-24gb.md`
 
 ## Hard rules
 - No placeholders — every command must be real and copy-pasteable.

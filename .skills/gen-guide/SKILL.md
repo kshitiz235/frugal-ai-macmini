@@ -9,8 +9,8 @@ description: Generate step-by-step build guides from a stack and framework refer
 - Stack doc path + framework name (e.g., "dev-ollama-qwen3.5 + Dify")
 
 ## Grounding source
-- Referenced stack doc in `stacks/`
-- Framework component doc in `components/frameworks/`
+- Referenced stack doc in `docs/stacks/`
+- Framework component doc in `docs/components/frameworks/`
 - Framework official documentation (fetched via WebFetch)
 
 ## Workflow
@@ -21,10 +21,10 @@ description: Generate step-by-step build guides from a stack and framework refer
 5. Add verification table and troubleshooting section.
 
 ## Output
-- Write to `guides/[number]-[short-name].md`
+- Write to `docs/guides/[number]-[short-name].md`
 
 ## Example doc
-- `guides/01-offline-chat-service.md`
+- `docs/guides/01-offline-chat-service.md`
 
 ## Hard rules
 - Must link to a stack as prerequisite.

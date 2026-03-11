@@ -20,10 +20,10 @@ description: Generate framework reference cards for the Frugal AI Knowledge Base
 4. Verify Docker run command works and uses real image tags.
 
 ## Output
-- Write to `components/frameworks/[framework-name].md`
+- Write to `docs/components/frameworks/[framework-name].md`
 
 ## Example doc
-- `components/frameworks/open-webui.md`
+- `docs/components/frameworks/open-webui.md`
 
 ## Hard rules
 - No placeholders — every field must have real content.
