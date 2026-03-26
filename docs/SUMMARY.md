@@ -20,6 +20,9 @@
 
 * [Qwen3.5-9B](components/models/qwen-3.5-9b.md)
 * [DeepSeek-V3-0324](components/models/deepseek-v3-0324.md)
+* [Mistral-7B-Instruct-v0.3](components/models/mistral-7b-instruct-v0.3.md)
+* [Llama-3.1-8B-Instruct](components/models/llama-3.1-8b-instruct.md)
+* [Llama-3.1-70B-Instruct](components/models/llama-3.1-70b-instruct.md)
 
 ## Components — Frameworks
 
@@ -39,6 +42,8 @@
 
 * [Offline Chat Service](guides/01-offline-chat-service.md)
 * [Agentic Workflows](guides/02-agentic-workflows.md)
+* [Vision + Text Understanding](guides/03-vision-text-understanding.md)
+* [Document Q&A with Dify RAG](guides/04-document-qa-rag.md)
 
 ## Runbooks
 
