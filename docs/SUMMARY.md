@@ -37,6 +37,7 @@
 ## Stacks
 
 * [Dev — Ollama + Qwen3.5](stacks/dev-ollama-qwen3.5.md)
+* [Dev — Ollama Local](stacks/dev-ollama-local.md)
 
 ## Guides
 
@@ -44,6 +45,9 @@
 * [Agentic Workflows](guides/02-agentic-workflows.md)
 * [Vision + Text Understanding](guides/03-vision-text-understanding.md)
 * [Document Q&A with Dify RAG](guides/04-document-qa-rag.md)
+* [DeepSeek Chat Assistant](guides/05-deepseek-chat-assistant.md)
+* [Local LLM UI Setup](guides/06-local-llm-ui-setup.md)
+* [Open WebUI Browser Verification](guides/07-open-webui-browser.md)
 
 ## Runbooks
 
