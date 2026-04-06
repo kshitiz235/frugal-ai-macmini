@@ -48,6 +48,7 @@
 * [DeepSeek Chat Assistant](guides/05-deepseek-chat-assistant.md)
 * [Local LLM UI Setup](guides/06-local-llm-ui-setup.md)
 * [Open WebUI Browser Verification](guides/07-open-webui-browser.md)
+* [Local OpenCode Environment](guides/08-local-opencode-setup.md)
 
 ## Runbooks
 
