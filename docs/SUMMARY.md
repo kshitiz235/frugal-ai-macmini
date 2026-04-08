@@ -23,6 +23,10 @@
 * [Mistral-7B-Instruct-v0.3](components/models/mistral-7b-instruct-v0.3.md)
 * [Llama-3.1-8B-Instruct](components/models/llama-3.1-8b-instruct.md)
 * [Llama-3.1-70B-Instruct](components/models/llama-3.1-70b-instruct.md)
+* [Gemma 4 E2B](components/models/gemma-4-e2b.md)
+* [Gemma 4 E4B](components/models/gemma-4-e4b.md)
+* [Gemma 4 26B A4B](components/models/gemma-4-26b-a4b.md)
+* [Gemma 4 31B](components/models/gemma-4-31b.md)
 
 ## Components — Frameworks
 
